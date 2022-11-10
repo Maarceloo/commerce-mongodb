@@ -20,8 +20,10 @@ docker-compose up -d
 ## Observação
 
  - Utilizando a extensao do mongoDB para VsCode, conecte ao banco na porta 27019.
-<!-- ![commerce-queries](https://user-images.githubusercontent.com/99821267/201095734-cf916c00-bddf-4d50-a765-df58825d1e7b.png) -->
+![conectando-extensao](./img/conectando_extensao.png)
  - Rode os arquivos "desafios*.mongodb".
+![rodando-querys](./img/rodando_Querys.png)
+
 
 
 <details>
