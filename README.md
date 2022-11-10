@@ -20,12 +20,18 @@ code .
 
 ## Observação
 
- - Utilizando a extensao do mongoDB para VsCode, conecte ao banco na porta 27019.
-![conectando-extensao](./img/conectando_extensao.png)
- - Rode os arquivos "desafios*.mongodb".
-![rodando-querys](./img/rodando_Querys.png)
+<details>
+<summary>Utilizando a extensao do mongoDB para VsCode, conecte ao banco na porta 27019</summary>
+<br>
+![conectando-extensao](https://github.com/Maarceloo/commerce-mongodb/blob/main/img/conectando_extensao.png)
 
+</details>
 
+<details>
+<summary>Rode os arquivos "desafios*.mongodb".</summary>
+<br>
+![rodando-querys](https://github.com/Maarceloo/commerce-mongodb/blob/main/img/rodando_Querys.png)
+</details>
 
 <details>
 <summary>Estrutura do banco</summary>
