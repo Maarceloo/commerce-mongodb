@@ -1,5 +1,6 @@
 # mongodb-commerce
 
+
 Projeto Commerce em MongoDB!
 
 O Projeto teve como finalidade manipular o banco de dados desenvolvendo uma serie de Querys com diferentes tipos de complexidade.
@@ -20,18 +21,11 @@ code .
 
 ## Observação
 
-<details>
-<summary>Utilizando a extensao do mongoDB para VsCode, conecte ao banco na porta 27019</summary>
-<br>
-![conectando-extensao](https://github.com/Maarceloo/commerce-mongodb/blob/main/img/conectando_extensao.png)
+ - Utilizando a extensao do mongoDB para VsCode, conecte ao banco na porta 27019
+![conectando-extensao](./img/conectando_extensao.png)
 
-</details>
-
-<details>
-<summary>Rode os arquivos "desafios*.mongodb".</summary>
-<br>
+- Rode os arquivos "desafios*.mongodb".</summary>
 ![rodando-querys](https://github.com/Maarceloo/commerce-mongodb/blob/main/img/rodando_Querys.png)
-</details>
 
 <details>
 <summary>Estrutura do banco</summary>
@@ -286,8 +280,13 @@ code .
 
 # Requisitos 
 
+<details>
+<summary>Requisitos</summary>
+<br>
+
 | Requisitos | Descrição |
 |---|---|
+| `0` | Insira o banco de dados |
 | `1` | Retorne a quantidade de documentos inseridos na coleção produtos |
 | `2` | Ordene a coleção produtos pela quantidade de lanches vendidos em ordem crescente, mostrando apenas o nome e a quantidade de lanches vendidos |
 | `3` | Retorne o lanche mais vendido, mostrando apenas o nome e a quantidade do lanche mais vendido |
@@ -321,5 +320,7 @@ code .
 | `31` | Retorne o nome dos sanduíches em que o número de curtidas é maior que o número de sanduíches vendidos |
 | `32` | Retorne o nome e a quantidade de vendas (vendidos) dos sanduíches em que o número de vendas é múltiplo de 5 |
 
-## Autor 
+</details>
+
+## Desenvolvido Por:
 - [Marcelo De Lima](https://github.com/Maarceloo)
