@@ -14,7 +14,8 @@ O banco é composto por dados fictícios do cardápio do McDonalds como ingredie
 git clone git@github.com:Maarceloo/commerce-mongodb.git &&
 cd commerce-mongodb &&
 npm install &&
-docker-compose up -d
+docker-compose up -d &&
+code .
 ```
 
 ## Observação
