@@ -1,5 +1,4 @@
-# mongodb-commerce
-
+# MongoDB Commerce
 
 Projeto Commerce em MongoDB!
 
@@ -7,28 +6,59 @@ O Projeto teve como finalidade manipular o banco de dados desenvolvendo uma seri
 
 O banco é composto por dados fictícios do cardápio do McDonalds como ingredientes, valores nutricionais e dados de vendas.
 
-# Instruções da aplicação
+### 📋 Pré-requisitos
 
-### Rodando aplicação com docker
+Voce precisa ter o docker instalado localmente para baixar a imagem do MongoDB
+
+``
+Docker
+``
+
+### 🔧 Instalação
+
+Rodando a aplicação com o Docker.
+
+Clone o repositorio:
 
 ```
-git clone git@github.com:Maarceloo/commerce-mongodb.git &&
-cd commerce-mongodb &&
-npm install &&
-docker-compose up -d &&
+git clone git@github.com:Maarceloo/commerce-mongodb.git
+```
+
+Entre na pasta:
+
+```
+cd commerce-mongodb
+```
+
+Instale as dependencias:
+
+```
+npm install
+```
+
+Subindo containers:
+
+```
+docker-compose up -d
+```
+
+Abrao  VSCode:
+
+```
 code .
 ```
 
-## Observação
+## ⚙️ Executando
 
- - Utilizando a extensao do mongoDB para VsCode, conecte ao banco na porta 27019
+- Utilizando a extensao do mongoDB para VsCode, conecte ao banco na porta 27019
 ![conectando-extensao](./img/conectando_extensao.png)
-
-- Rode os arquivos "desafios*.mongodb".</summary>
+- Rode os arquivos "desafio*.mongodb".
 ![rodando-querys](https://github.com/Maarceloo/commerce-mongodb/blob/main/img/rodando_Querys.png)
 
+### 🎲 Estrutura do Banco
+
 <details>
-<summary>Estrutura do banco</summary>
+<summary>Banco de dados</summary>
 <br>
 
 ```
@@ -277,8 +307,7 @@ code .
 
 </details>
 
-
-# Requisitos 
+### 🧾 Requisitos
 
 <details>
 <summary>Requisitos</summary>
@@ -322,5 +351,12 @@ code .
 
 </details>
 
-## Desenvolvido Por:
-- [Marcelo De Lima](https://github.com/Maarceloo)
+## 🛠️ Construído com
+
+Ferramentas utilizadas no projeto
+
+- [Docker](https://www.docker.com/)
+- [MongoDB](https://www.mongodb.com/)
+
+---
+⌨️ Desenvolvido por [Marcelo De Lima](https://github.com/Maarceloo) 😊
