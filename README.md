@@ -6,6 +6,8 @@ O Projeto teve como finalidade manipular o banco de dados desenvolvendo uma seri
 
 O banco é composto por dados fictícios do cardápio do McDonalds como ingredientes, valores nutricionais e dados de vendas.
 
+---
+
 ### 📋 Pré-requisitos
 
 Voce precisa ter o docker instalado localmente para baixar a imagem do MongoDB
@@ -13,6 +15,8 @@ Voce precisa ter o docker instalado localmente para baixar a imagem do MongoDB
 ``
 Docker
 ``
+
+---
 
 ### 🔧 Instalação
 
@@ -48,17 +52,22 @@ Abrao  VSCode:
 code .
 ```
 
+---
+
 ## ⚙️ Executando
 
-- Utilizando a extensao do mongoDB para VsCode, conecte ao banco na porta 27019
+#### Utilizando a extensao do mongoDB para VsCode, conecte ao banco na porta 27019
+
 ![conectando-extensao](./img/conectando_extensao.png)
-- Rode os arquivos "desafio*.mongodb".
+
+#### Rode os arquivos "desafio*.mongodb"
+
 ![rodando-querys](https://github.com/Maarceloo/commerce-mongodb/blob/main/img/rodando_Querys.png)
 
-### 🎲 Estrutura do Banco
+---
 
 <details>
-<summary>Banco de dados</summary>
+<summary><strong> 🎲 Banco de dados </strong></summary>
 <br>
 
 ```
@@ -307,10 +316,8 @@ code .
 
 </details>
 
-### 🧾 Requisitos
-
 <details>
-<summary>Requisitos</summary>
+<summary><strong> 🧾 Requisitos </strong> </summary>
 <br>
 
 | Requisitos | Descrição |
@@ -350,6 +357,8 @@ code .
 | `32` | Retorne o nome e a quantidade de vendas (vendidos) dos sanduíches em que o número de vendas é múltiplo de 5 |
 
 </details>
+
+---
 
 ## 🛠️ Construído com
 
