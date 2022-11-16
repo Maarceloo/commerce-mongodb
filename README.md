@@ -8,7 +8,7 @@ O banco é composto por dados fictícios do cardápio do McDonalds como ingredie
 
 ---
 
-### 📋 Pré-requisitos
+## 📋 Pré-requisitos
 
 Voce precisa ter o docker instalado localmente para baixar a imagem do MongoDB
 
@@ -18,7 +18,7 @@ Docker
 
 ---
 
-### 🔧 Instalação
+## 🔧 Instalação
 
 Rodando a aplicação com o Docker.
 
